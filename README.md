@@ -10,7 +10,9 @@ Features :
 
   NLP Optimization: The chatbot preprocesses user queries using stemming and lemmatization techniques provided by NLTK. This optimization helps in reducing the dimensionality of the input space and improving the accuracy of the neural network model.
 PyTorch Neural Network: The core of the chatbot is powered by a neural network model implemented using PyTorch. This model is trained on a dataset of conversations to understand and generate appropriate responses.
+
 Flask Backend: Flask is used to develop the backend server that handles incoming user queries, processes them, and generates responses using the trained neural network model.
+
 HTML and JavaScript Frontend: The frontend interface of the chatbot is built using HTML and JavaScript. It provides users with an intuitive chatbox where they can interact with the chatbot.
 NLP Optimization
 
