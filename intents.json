@@ -1,0 +1,975 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "Hi there",
+        "Hii",
+        "Hey there",
+        "Hello there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey hey!",
+        "Yo!",
+        "What's up?",
+        "Hiya!",
+        "Howdy",
+        "Hey!",
+        "Hey you!",
+        "How's it going?",
+        "What's happening?",
+        "What's new?",
+        "Well hello!",
+        "Well hey there!",
+        "Long time no see!",
+        "Nice to see you!",
+        "Pleased to meet you!",
+        "Hey, what's cooking?",
+        "How goes it?",
+        "Hey, stranger!",
+        "Hi friend!",
+        "Hey bud!",
+        "What's the good word?",
+        "How's your day?",
+        "Hey, what's happening?",
+        "Hi, how's everything?",
+        "Hey, tiger!",
+        "How's life treating you?",
+        "Hey, sunshine!",
+        "How have you been?",
+        "What's crackin'?",
+        "Well, well, well!",
+        "Hey, mate!",
+        "Hi there, lovely!",
+        "Hey, beautiful!",
+        "How's tricks?",
+        "Hey, pal!"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Nice to see you!",
+        "Hello! How can I assist you today?",
+        "Hey, good to have you here!",
+        "Hi! What brings you here?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ 
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I have to go now",
+        "Take care",
+        "See you soon",
+        "Catch you later",
+        "Until next time",
+        "Farewell",
+        "Adios",
+        "Bye-bye",
+        "Later gator",
+        "Peace out",
+        "Till we meet again",
+        "So long",
+        "Take it easy",
+        "Have a good one",
+        "Keep in touch",
+        "See you tomorrow",
+        "Take care now",
+        "Have a great day",
+        "Goodnight",
+        "Take it easy",
+        "I'm out",
+        "Off I go",
+        "Time to go",
+        "Bye for now",
+        "See ya",
+        "Be well",
+        "Catch you on the flip side",
+        "Later alligator",
+        "Toodles",
+        "Tata",
+        "Goodbye for now",
+        "Gotta dash",
+        "Until we meet again",
+        "Cheerio",
+        "Ciao"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Goodbye! Don't hesitate to return if you have more questions.",
+        "Take care! Have a great day!",
+        "It was nice chatting with you. Goodbye!",
+        "Until next time, farewell!",
+        "Catch you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ 
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I appreciate it",
+        "Thank you very much",
+        "Thanks a bunch",
+        "Many thanks",
+        "Much obliged",
+        "Cheers",
+        "You're a lifesaver",
+        "I owe you one",
+        "Big thanks",
+        "Thanks a million",
+        "I'm grateful",
+        "You're the best",
+        "You rock",
+        "I'm so thankful",
+        "You've been so helpful",
+        "I can't thank you enough",
+        "You're awesome",
+        "I'm indebted to you",
+        "You've made my day",
+        "You're too kind",
+        "I'm very thankful",
+        "You're amazing",
+        "I'm forever grateful",
+        "You're a star",
+        "I'm so appreciative",
+        "You're a legend",
+        "I'm deeply grateful",
+        "You're fantastic",
+        "You're a real gem",
+        "You're a hero",
+        "You're wonderful",
+        "You're a miracle worker",
+        "You're the greatest",
+        "You're a true friend",
+        "You're a superstar",
+        "You're phenomenal"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Glad I could assist!",
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "course_info",
+      "patterns": [
+        "Can you tell me about the course?",
+        "What is this course about?",
+        "I want to know more about the course.",
+        "What topics are covered in the course?",
+        "What will I learn in this course?",
+        "Give me an overview of the course.",
+        "What does the course entail?",
+        "Tell me about the curriculum.",
+        "Could you explain the course content?",
+        "I'm interested in learning about the course.",
+        "Can you provide information on the course?",
+        "Tell me what the course covers.",
+        "What are the details of the course?",
+        "I'm curious about the course content.",
+        "Please describe the course to me.",
+        "I'd like to know about the course structure.",
+        "What's included in the course?",
+        "Give me details about the course.",
+        "Could you tell me more about the course?",
+        "What can I expect from the course?"
+      ],
+      "responses": [
+        "Our course covers a wide range of topics related to DSA, competitive Programming, Web Development, Blockchain, etc."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long does the course take to complete?",
+        "What is the duration of the course?",
+        "How much time do I need to complete the course?",
+        "How many months does it take to finish the course?",
+        "Can you tell me the course duration?",
+        "What is the time commitment for the course?",
+        "How long is the course?",
+        "What's the time frame for completing the course?",
+        "Can you give me an estimate of the course duration?",
+        "What's the expected time to complete the course?",
+        "How many weeks/months does the course run for?",
+        "What's the typical length of the course?",
+        "Is there a fixed duration for the course?",
+        "What's the expected duration for course completion?",
+        "Can you tell me how long the course lasts?",
+        "What's the time span for course completion?",
+        "How much time should I allocate for the course?",
+        "What's the time investment required for the course?",
+        "Can you provide an idea of the course duration?",
+        "What's the expected timeline for course completion?"
+      ],
+      "responses": [
+        "The course typically takes 1-3 months to complete.",
+        "You can complete the course at your own pace, but on average, it takes 1-3 months."
+      ]
+    },
+    {
+      "tag": "course_cost",
+      "patterns": [
+        "How much does the course cost?",
+        "What is the fee for the course?",
+        "Is there any cost associated with the course?",
+        "Can you provide information about the course fee?",
+        "What are the charges for the course?",
+        "How expensive is the course?",
+        "What's the price of the course?",
+        "Is there a fee for enrolling in the course?",
+        "What's the tuition for the course?",
+        "Can you tell me the cost of the course?",
+        "What's the course fee?",
+        "How much do I have to pay for the course?",
+        "What's the total expense for the course?",
+        "Are there any additional fees for the course?",
+        "What's the cost structure for the course?",
+        "Do I need to pay for the course?",
+        "What's the pricing model for the course?",
+        "Can you inform me about the course charges?",
+        "Is there a price tag attached to the course?",
+        "What's the financial commitment for the course?"
+      ],
+      "responses": [
+        "The cost of the course is $299.",
+        "You can check the current pricing on our website."
+      ]
+    },
+    {
+      "tag": "placement_opportunities",
+      "patterns": [
+        "Does this course offer placement opportunities?",
+        "Are there any job placements after completing the course?",
+        "Will I get a job after completing the course?",
+        "Can you help me with job placement after the course?",
+        "What are the career prospects after completing the course?",
+        "Are there any employment options after the course?",
+        "Can I expect career assistance after the course?",
+        "Does the course lead to job opportunities?",
+        "Are there chances of getting hired after the course?",
+        "What are the job prospects post-course completion?",
+        "Do you assist with job placements?",
+        "Can I find employment after completing the course?",
+        "Is there support for finding jobs after the course?",
+        "Are there opportunities for career advancement after the course?",
+        "Can I expect assistance with career development?",
+        "What's the likelihood of getting hired after the course?",
+        "Do you provide guidance for job seekers?",
+        "Are there chances of landing a job after the course?",
+        "Will completing the course help with employment?",
+        "What are the chances of getting placed after the course?"
+      ],
+      "responses": [
+        "We provide placement assistance to our students.",
+        "Our career services team helps students with job placements."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Does this course offer financial aid?",
+        "Is financial assistance available for the course?",
+        "Are there any options for financial support?",
+        "Can I get help with course fees?",
+        "Do you provide financial aid?"
+      ],
+      "responses": [
+        "Yes, we offer financial aid for eligible students.",
+        "Financial assistance is available for those who qualify.",
+        "We provide options for financial support to help you with course fees.",
+        "You can apply for financial aid to receive assistance with course fees.",
+        "Our institution offers various forms of financial aid to support students."
+      ]
+    },
+    {
+      "tag": "underprivileged_financial_aid",
+      "patterns": [
+        "Does this course offer financial aid for underprivileged people?",
+        "Is there financial aid for underprivileged individuals?",
+        "Are there special programs for financially disadvantaged students?",
+        "Can underprivileged individuals receive financial assistance for the course?",
+        "Do you provide aid for underprivileged students?"
+      ],
+      "responses": [
+        "Yes, we offer financial aid specifically for underprivileged individuals.",
+        "Financial assistance programs are available for underprivileged students.",
+        "We have special initiatives to provide financial aid to financially disadvantaged individuals.",
+        "Underprivileged students can apply for financial assistance to support their education.",
+        "Our institution is committed to supporting underprivileged students through financial aid programs."
+      ]
+    },
+
+    {
+      "tag": "emi",
+      "patterns": [
+        "Can I pay in EMI?",
+        "Are there EMI options available?",
+        "Do you offer EMI for course fees?",
+        "Can I pay in monthly installments?",
+        "Is there a payment plan with EMI?",
+        "EMI options?",
+        "EMI payment?",
+        "Flexible payments with EMI?",
+        "Monthly installments?",
+        "Deferred payments with EMI?",
+        "EMI facilities?",
+        "Installment payments?",
+        "Pay over time with EMI?",
+        "EMI arrangement?",
+        "Payment schedule with EMI?",
+        "EMI financing?"
+      ],
+      "responses": [
+        "Yes, EMI options are available for course fees.",
+        "You can pay for the course in monthly installments through our EMI plan.",
+        "We offer EMI for course fees to make payments more manageable.",
+        "Our payment plan includes options for monthly installments with EMI.",
+        "You can choose a payment plan that includes EMI.",
+        "We provide EMI options to help you manage course fees.",
+        "EMI is available as a payment method.",
+        "You can pay for the course in flexible installments with EMI.",
+        "Spread the course fee over time with monthly installments.",
+        "Our EMI plan allows for deferred payments.",
+        "We offer EMI facilities for course payments.",
+        "Choose to pay in installments with our EMI option.",
+        "Pay for the course over time with EMI.",
+        "Arrange for EMI payments to suit your needs.",
+        "Set up a payment schedule that includes EMI.",
+        "Financing options include EMI."
+      ]
+    },
+    
+     {
+      "tag": "refund_policy",
+      "patterns": [
+        "Is there any money-back guarantee if I did not like the course?",
+        "What is the refund policy?",
+        "Can I get a refund if I'm not satisfied with the course?",
+        "What is your policy on refunds?",
+        "Under what circumstances can I request a refund?",
+        "How does the refund process work?",
+        "Can I return the course and get a refund?",
+        "Do you offer refunds for course fees?",
+        "What's your stance on refunds?",
+        "Can I ask for a refund if I'm unhappy with the course?",
+        "What's the procedure for requesting a refund?",
+        "What's the timeline for refund processing?",
+        "Are there conditions for availing a refund?",
+        "Is there a window for requesting refunds?",
+        "How long do I have to request a refund?",
+        "What are the terms for refund eligibility?",
+        "Are there any exceptions to the refund policy?",
+        "Do you offer full or partial refunds?",
+        "Is there a cancellation fee for refunds?",
+        "Can I get my money back if I drop out of the course?"
+      ],
+      "responses": [
+        "Yes, we offer a money-back guarantee within 30 days of enrollment.",
+        "You can request a refund if you're not satisfied with the course content."
+      ]
+    },
+    {
+      "tag": "course_relevance",
+      "patterns": [
+        "Is this course relevant in today's market?",
+        "Will this course help me in my career?",
+        "Is the course content up-to-date?",
+        "Why should I take this course?",
+        "How does this course prepare me for industry standards?",
+        "What's the relevance of this course in the current job market?",
+        "Will the course content be beneficial in real-world scenarios?",
+        "How does the course align with industry requirements?",
+        "What value does the course add to my skillset?",
+        "What makes this course suitable for aspiring professionals?",
+        "Is the course content in line with industry trends?",
+        "What's the significance of taking this course?",
+        "How does the course cater to industry demands?",
+        "Why is this course essential for career growth?",
+        "Is the course material applicable in professional settings?",
+        "What advantages does the course offer in the job market?",
+        "How does the course address contemporary challenges?",
+        "What sets this course apart from others in the market?",
+        "Will the course enhance my employability?",
+        "What's the practical utility of the course content?"
+      ],
+      "responses": [
+        "Yes, our course content is regularly updated to keep up with industry trends.",
+        "The skills you'll learn in this course are highly sought after in today's job market."
+      ]
+    },
+
+    {
+      "tag": "dsa",
+      "patterns": [
+        "Is good DSA a prerequisite for this course?",
+        "Do I need to know DSA for this course?",
+        "Should I have a background in DSA?",
+        "Is DSA knowledge required?",
+        "Do I need DSA skills?",
+        "Is DSA proficiency necessary?",
+        "Do I need DSA experience?",
+        "Should I be familiar with DSA concepts?",
+        "Do I need to understand DSA?",
+        "Is DSA mastery required?",
+        "Is DSA necessary?",
+        "Do I have to know DSA?",
+        "Do I need DSA expertise?",
+        "Must I have DSA knowledge?",
+        "Is DSA a prerequisite?",
+        "Should I learn DSA beforehand?",
+        "Can I enroll without DSA background?",
+        "Is DSA mandatory?",
+        "Is DSA familiarity expected?",
+        "Do I need DSA understanding?",
+        "Is DSA essential?",
+        "Is DSA required for enrollment?",
+        "Is DSA a must-have?",
+        "Do I need DSA proficiency?",
+        "Is DSA prerequisite or optional?",
+        "Is DSA a prerequisite or recommendation?",
+        "Is DSA prerequisite flexible?",
+        "Is DSA background preferred?",
+        "Can I learn DSA during the course?",
+        "Can I start without DSA knowledge?",
+        "Is DSA covered in the course?",
+        "Do you teach DSA?",
+        "Will I learn DSA concepts?",
+        "Is DSA included in the curriculum?",
+        "Does the course cover DSA?",
+        "Will DSA be part of the syllabus?",
+        "Are DSA topics covered?",
+        "Is DSA part of the program?",
+        "Does the course include DSA lessons?"
+      ],
+      "responses": [
+        "Basic knowledge of data structures and algorithms is recommended but not required.",
+        "While prior knowledge of DSA is helpful, it's not mandatory for this course.",
+        "You can enroll in the course without extensive DSA experience, but familiarity with the concepts is beneficial.",
+        "We provide resources to help you brush up on DSA concepts if needed.",
+        "DSA skills are beneficial but not essential for this course.",
+        "Don't worry if you're not proficient in DSA; we cover the necessary concepts as part of the course.",
+        "The course includes DSA fundamentals, so prior knowledge is not strictly required.",
+        "You'll learn DSA concepts as part of the course curriculum.",
+        "Our course caters to learners with varying levels of DSA knowledge.",
+        "If you're new to DSA, we offer support to help you grasp the concepts covered in the course."
+      ]
+    },
+    {
+      "tag": "money_back_guarantee",
+      "patterns": [
+        "refund policy?",
+        "unsatisfied with course?",
+        "money back?",
+        "refund option?",
+        "unhappy with course?"
+      ],
+      "responses": [
+        "Yes, we offer refunds for unsatisfied students within a specified period.",
+        "If you're unsatisfied with the course, you may be eligible for a refund.",
+        "Our refund policy ensures that you can get your money back if you're not satisfied.",
+        "You have the option to request a refund if you're unhappy with the course content.",
+        "Unhappy with the course? Explore our refund options."
+      ]
+    },
+    
+
+
+    
+    {
+      "tag": "prerequisites",
+      "patterns": [
+        "Is good DSA a prerequisite for this course?",
+        "Do I need to have prior knowledge of DSA for this course?",
+        "What are the prerequisites for enrolling in this course?",
+        "Can I enroll in the course without any prior experience?",
+        "What background knowledge do I need for this course?",
+        "Are there any requirements for taking this course?",
+        "Do I need to meet specific criteria to enroll in the course?",
+        "Is there a prerequisite for joining the course?",
+        "What skills should I have before taking this course?",
+        "Can beginners enroll in the course?",
+        "What qualifications are necessary for the course?",
+        "Are there any eligibility criteria for enrollment?",
+        "Do I need to fulfill any conditions to take the course?",
+        "What's expected of me before starting the course?",
+        "Are there any mandatory prerequisites for the course?",
+        "Do I need to possess certain skills for the course?",
+        "Is there a proficiency level required for enrollment?",
+        "What knowledge areas should I be familiar with beforehand?",
+        "Can I apply for the course without prior experience?",
+        "Are there any entry requirements for the course?"
+      ],
+      "responses": [
+        "Basic knowledge of data structures and algorithms is recommended but not required.",
+        "We provide resources to help you brush up on DSA concepts if needed."
+      ]
+    },
+    {
+      "tag": "earnings_potential",
+      "patterns": [
+        "How much can I make after completing this course?",
+        "What is the earning potential after completing the course?",
+        "Will I get a good salary after completing the course?",
+        "Can you tell me about the career prospects after this course?",
+        "What is the average salary for graduates of this course?",
+        "What's the income range for course graduates?",
+        "Is there a significant increase in earnings post-course completion?",
+        "What's the earning capacity following the course?",
+        "How does the course impact salary prospects?",
+        "What's the expected return on investment in terms of salary?",
+        "Can I expect a salary hike after completing the course?",
+        "Do graduates see a rise in income after the course?",
+        "What's the correlation between course completion and salary?",
+        "Are there success stories regarding salary increments?",
+        "What's the average pay scale for course alumni?",
+        "How does the course contribute to financial growth?",
+        "What's the earning trajectory for course completers?",
+        "Is there a notable difference in earnings before and after the course?",
+        "What's the typical salary progression for graduates?",
+        "Do employers offer higher salaries to course graduates?"
+      ],
+      "responses": [
+        "The earning potential after completing this course varies depending on factors such as experience, location, and industry.",
+        "Many of our graduates have gone on to secure lucrative positions in the field."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Can I pay in EMI for this course?",
+        "Does this course offer financial aid for underprivileged people?",
+        "Are there any scholarships available for the course?",
+        "Is there any assistance for students with financial constraints?",
+        "Do you provide support for economically disadvantaged individuals?",
+        "Is there a provision for financial assistance for course fees?",
+        "What options are available for students with financial difficulties?",
+        "Can I get help with course fees if I have financial constraints?",
+        "Are there any subsidies for the course?",
+        "Is there a scheme for financing course fees?",
+        "Do you offer scholarships or grants for the course?",
+        "Are there discounts or waivers for economically weaker students?",
+        "How can I apply for financial aid for the course?",
+        "Do you have provisions for EMI payments?",
+        "Are there special arrangements for low-income students?",
+        "Is there a support system for students from marginalized backgrounds?",
+        "Can I avail of financial assistance if I'm unable to afford the course?",
+        "Are there any initiatives to assist students with financial limitations?",
+        "What's the procedure for applying for financial aid?",
+        "Do you have a program for students facing financial hardship?"
+      ],
+      "responses": [
+        "Yes, we offer EMI options for the course fee.",
+        "We provide financial aid or scholarships for eligible students."
+      ]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "Does this course offer any certificate?",
+        "Can I get a certificate upon completing the course?",
+        "Is the course certificate recognized?",
+        "What is the value of the course certificate?",
+        "Is the certificate accredited?",
+        "Will I receive a certification after completing the course?",
+        "Is the course completion certificate valid?",
+        "Can I use the certificate for professional purposes?",
+        "Is the certification globally accepted?",
+        "What's the credibility of the course certificate?",
+        "Can the certificate boost my career prospects?",
+        "Does the certificate hold value in the job market?",
+        "Is the course completion recognized by employers?",
+        "Will I get a digital badge or credential after the course?",
+        "Is the certification industry-standard?",
+        "Can I showcase the certificate on my resume?",
+        "Is the course certificate authentic?",
+        "Does the certificate have any expiry date?",
+        "How does the certificate benefit career advancement?",
+        "Can I verify the authenticity of the certificate?"
+      ],
+      "responses": [
+        "Yes, upon completing the course, you'll receive a certificate of completion.",
+        "The certificate will be issued upon successful completion of the course requirements."
+      ]
+    },
+    {
+      "tag": "testimonials",
+      "patterns": [
+        "Where can I get testimonials for this course?",
+        "Can I see reviews or testimonials of the course?",
+        "Are there any student reviews available?",
+        "What do other students say about this course?",
+        "Can I find feedback from previous participants?",
+        "Are there testimonials from course alumni?",
+        "Where can I read success stories from course graduates?",
+        "Is there a section for course reviews?",
+        "Can I access reviews from past students?",
+        "How can I view opinions of previous course takers?",
+        "Are there any recommendations from former participants?",
+        "Where can I find endorsements for the course?",
+        "Are there any real-life stories of course completion?",
+        "Can I find comments from students who completed the course?",
+        "Is there feedback from those who already took the course?",
+        "How can I learn about experiences of former students?",
+        "Are there any testimonials from successful learners?",
+        "Can I find out what others think about the course?",
+        "Where can I find unbiased reviews of the course?",
+        "Is there a platform for sharing course experiences?"
+      ],
+      "responses": [
+        "You can find testimonials from our past students on our website.",
+        "Check out the reviews section on our website for testimonials."
+      ]
+    },
+    {
+      "tag": "mentor",
+      "patterns": [
+        "Who is the mentor for this course?",
+        "Can you tell me about the mentor for this course?",
+        "What are the qualifications of the course instructors?",
+        "What experience do the mentors have?",
+        "Is there a lead instructor for the course?",
+        "Who conducts the sessions for the course?",
+        "Can I know more about the teaching faculty?",
+        "Are there multiple mentors for the course?",
+        "What's the background of the course mentors?",
+        "Who are the educators for this program?",
+        "Can I learn about the course facilitators?",
+        "How knowledgeable are the course mentors?",
+        "Are there any industry experts involved in teaching?",
+        "What role do instructors play in the course?",
+        "Who designs the course curriculum?",
+        "Can I get information about the course instructors?",
+        "Who are the subject matter experts for this course?",
+        "Can you elaborate on the qualifications of the mentors?",
+        "What's the expertise of the course instructors?",
+        "Are there any guest lecturers in the course?",
+        "Who leads the training sessions?",
+        "Can I get details about the faculty members?",
+        "Are the mentors experienced in the field?",
+        "What's the teaching methodology of the instructors?"
+      ],
+      "responses": [
+        "Our course is taught by experienced industry professionals with extensive knowledge in the field of Computer science.",
+        "Our mentors have extensive experience in Computer science related fields"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How can I access the course content?",
+        "Is it an online or offline course?",
+        "How does the course delivery work?",
+        "Can you explain how the course is delivered?",
+        "Where do I find the course materials?",
+        "Can I download the course materials?",
+        "Is there a specific platform for course delivery?",
+        "How do I start with the course content?",
+        "What's the mode of course delivery?",
+        "Can I access the course offline?",
+        "Is there a schedule for course delivery?",
+        "How are the course materials provided?",
+        "Can I access the course from anywhere?",
+        "Is there a mobile app for course access?",
+        "Is the course delivered through videos or text?",
+        "What's the process for accessing course lectures?",
+        "Is there a specific time for course delivery?",
+        "How do I navigate through the course content?",
+        "Can I access the course on multiple devices?",
+        "Do I need any special software for course delivery?",
+        "Can I access the course on my smartphone?",
+        "Is there a dedicated portal for course participants?",
+        "What's the user interface like for course delivery?",
+        "Can I interact with other participants during the course?"
+      ],
+      "responses": [
+        "The course is delivered online through our learning management system.",
+        "You can access the course materials through our online platform."
+      ]
+    },
+    {
+      "tag": "assessment",
+      "patterns": [
+        "How will I be assessed in the course?",
+        "Are there quizzes or exams during the course?",
+        "What's the assessment method for the course?",
+        "How are assignments graded in the course?",
+        "Will there be tests to evaluate my progress?",
+        "What's the grading system for the course?",
+        "Are there any assessments after each module?",
+        "How will my performance be evaluated?",
+        "Is there a final exam for the course?",
+        "Are there practical exercises in the course?",
+        "Can I track my progress in the course?",
+        "How often are assessments conducted?",
+        "Are there any projects as part of the assessment?",
+        "What's the evaluation criteria for assignments?",
+        "Is there continuous assessment in the course?",
+        "Do I need to pass exams to complete the course?",
+        "How are practical skills assessed?",
+        "Are there any oral presentations as part of assessment?",
+        "What happens if I fail an assessment?",
+        "Is there peer assessment in the course?"
+      ],
+      "responses": [
+        "Assessment methods include quizzes, assignments, and a final exam.",
+        "You'll be evaluated through quizzes, assignments, and practical exercises."
+      ]
+    },
+    {
+      "tag": "enrollment_process",
+      "patterns": [
+        "How do I enroll in the course?",
+        "What's the procedure for course enrollment?",
+        "Can you guide me through the enrollment process?",
+        "How can I sign up for the course?",
+        "Where do I go to enroll in the course?",
+        "Is there an online form for course registration?",
+        "How do I get started with the enrollment?",
+        "What are the steps to join the course?",
+        "Can I register for the course online?",
+        "Is there an application process for enrollment?",
+        "How can I become a part of this course?",
+        "Do I need to create an account for enrollment?",
+        "Can I enroll directly on the website?",
+        "Is there an enrollment deadline?",
+        "What's the enrollment timeline?",
+        "Do I need to submit any documents for enrollment?",
+        "Can I enroll over the phone?",
+        "Is there a fee for course registration?",
+        "Is there an age limit for enrollment?",
+        "Can international students enroll in the course?"
+      ],
+      "responses": [
+        "You can enroll in the course through our website by filling out the enrollment form.",
+        "The enrollment process is simple and can be completed online."
+      ]
+    },
+
+    {
+      "tag": "beginner",
+      "patterns": [
+        "Suitable for beginners?",
+        "Is this course beginner-friendly?",
+        "Beginner-friendly?",
+        "Good for beginners?",
+        "Recommended for beginners?",
+        "Novice-friendly?",
+        "Easy for beginners?",
+        "Ideal for beginners?",
+        "Is it suitable for beginners?",
+        "Beginner-level course?",
+        "Beginner-friendly content?",
+        "For beginners?",
+        "Designed for beginners?",
+        "Is it easy for beginners?",
+        "Newbie-friendly?",
+        "Tailored for beginners?",
+        "Is this course suitable for newbies?",
+        "Entry-level course?",
+        "Is it beginner-appropriate?",
+        "Perfect for beginners?"
+      ],
+      "responses": [
+        "Yes, this course is designed specifically for beginners.",
+        "Absolutely! This course is perfect for those new to the subject.",
+        "You bet! It's beginner-friendly all the way.",
+        "Definitely, beginners will feel right at home with this course.",
+        "Yes, this course is ideal for those just starting out.",
+        "Absolutely, beginners will find this course easy to follow.",
+        "Yes, beginners will find the content accessible and engaging.",
+        "Absolutely, this course is tailored to suit beginner learners.",
+        "Indeed, this course is suitable for those with little to no experience.",
+        "Yes, beginners can dive right into this course without any hesitation.",
+        "Yes, this course is crafted with beginners in mind.",
+        "For sure! Beginners will find this course informative and easy to understand.",
+        "Yes, this course offers a gentle introduction for beginners.",
+        "Definitely, beginners will find the material easy to grasp.",
+        "Absolutely, this course caters to the needs of beginners.",
+        "Yes, this course is perfect for beginners looking to learn.",
+        "Indeed, beginners will find this course both helpful and enjoyable.",
+        "Absolutely, this course is a great starting point for beginners.",
+        "Yes, beginners will find this course accessible and rewarding.",
+        "Definitely, beginners will find this course a valuable learning experience.",
+        "Absolutely, this course provides a solid foundation for beginners."
+      ]
+    },
+    {
+      "tag": "advanced",
+      "patterns": [
+        "Suitable for advanced users?",
+        "Is this course for advanced learners?",
+        "Advanced level course?",
+        "Recommended for advanced learners?",
+        "Is it suitable for experienced users?",
+        "Advanced-friendly?",
+        "For experienced users?",
+        "Advanced content?",
+        "Designed for experienced learners?",
+        "Advanced level material?",
+        "Tailored for advanced learners?",
+        "For experts?",
+        "Is this course for seasoned professionals?",
+        "For those with prior experience?",
+        "Advanced learners only?",
+        "Experienced-friendly?",
+        "Perfect for experts?",
+        "Expert level course?",
+        "Is it suitable for seasoned professionals?",
+        "For those with experience?"
+      ],
+      "responses": [
+        "Yes, this course is tailored for advanced users seeking deeper knowledge.",
+        "Absolutely! This course is designed to challenge experienced learners.",
+        "You bet! It's perfect for those looking to take their skills to the next level.",
+        "Definitely, this course is recommended for advanced learners.",
+        "Yes, this course is crafted with experienced users in mind.",
+        "Absolutely, this course offers content that is suitable for advanced learners.",
+        "Yes, this course caters to the needs of experienced users.",
+        "Indeed, this course provides advanced-level content for seasoned professionals.",
+        "Yes, this course offers material designed to challenge experienced learners.",
+        "Absolutely, this course is ideal for those with prior experience.",
+        "For sure! Advanced users will find this course both challenging and rewarding.",
+        "Yes, this course provides in-depth knowledge for experienced learners.",
+        "Definitely, this course is for those looking to expand their expertise.",
+        "Absolutely, this course offers content suited for seasoned professionals.",
+        "Yes, this course is perfect for experts looking to enhance their skills.",
+        "Indeed, this course is designed to meet the needs of advanced learners.",
+        "Absolutely, this course provides advanced-level material for experienced users.",
+        "Yes, this course is tailored to suit the needs of seasoned professionals.",
+        "Definitely, this course is recommended for those with prior experience.",
+        "Absolutely, this course offers content that is challenging and engaging."
+      ]
+    }
+    ,
+    {
+     "tag": "online_course",
+          "patterns": [
+            "Is it an online course?",
+            "Can I access the course online?",
+            "Is the course delivered over the internet?",
+            "Do I need internet access to take the course?",
+            "Can I study online?"
+          ],
+          "responses": [
+            "Yes, the course is entirely online.",
+            "You can access the course materials online from anywhere with an internet connection.",
+            "The course is delivered through our online learning platform.",
+            "You'll need internet access to participate in the course."
+          ]
+        },
+
+        {
+          "tag": "assignment",
+          "patterns": [
+            "Type of assignments?",
+            "About assignments?",
+            "Assignment details?",
+            "Assignments structure?",
+            "Assignment format?",
+            "Assignment workload?",
+            "Assignment purpose?"
+          ],
+          "responses": [
+            "Assignments include practical tasks like projects and exercises.",
+            "We assess learning through projects, quizzes, and exercises.",
+            "Tasks vary to test comprehension and skill application.",
+            "Assignments reinforce course concepts with hands-on tasks.",
+            "Assignments evaluate understanding and application of material.",
+            "Workload is manageable to support learning objectives.",
+            "Assignments aim to reinforce learning and assess understanding."
+          ]
+        }
+        ,
+
+        {
+          "tag": "doubt_support",
+          "patterns": [
+            "How does doubt support work?",
+            "What is the support system for doubts?",
+            "Can I get help with doubts?",
+            "Is there assistance for clarifying doubts?",
+            "How do I resolve my doubts?",
+            "Are doubts addressed promptly?",
+            "What is the doubt resolution process?",
+            "How can I get help with unclear concepts?"
+          ],
+          "responses": [
+            "Our doubt support system allows you to ask questions and receive assistance.",
+            "Doubts are addressed through forums, live sessions, and one-on-one support.",
+            "You can seek help with doubts through our dedicated support channels.",
+            "Our team is here to help clarify any concepts you find confusing.",
+            "Doubts are resolved through interactions with instructors and peers.",
+            "We strive to address doubts in a timely manner to support your learning.",
+            "The doubt resolution process involves seeking clarification from instructors and peers.",
+            "You can get help with unclear concepts by reaching out to our support team."
+          ]
+        },
+
+
+        {
+          "tag": "different",
+          "patterns": [
+            "How is this course unique?",
+            "What sets this course apart from others?",
+            "In what ways is this course different?",
+            "What makes this course stand out?",
+            "How does this course compare to others?",
+            "What are the distinguishing features of this course?",
+            "What are the advantages of this course over others?",
+            "Why should I choose this course over alternatives?"
+          ],
+          "responses": [
+            "Our course offers a unique blend of theory and hands-on practice, ensuring comprehensive learning.",
+            "What sets us apart is our focus on real-world applications and practical skills development.",
+            "Unlike other courses, ours provides personalized mentorship and tailored learning experiences.",
+            "We stand out by offering industry-relevant projects and case studies to enhance learning outcomes.",
+            "Our course stands out for its cutting-edge curriculum and innovative teaching methodologies.",
+            "What makes us different is our commitment to continuous improvement and student success.",
+            "We differentiate ourselves through our dedicated support system and student-centric approach.",
+            "Our course offers a holistic learning experience unmatched by other platforms."
+          ]
+        }
+        ,
+        
+        {
+          "tag": "offline_course",
+          "patterns": [
+            "Is it an offline course?",
+            "Can I take the course without internet?",
+            "Do I need to attend classes in person?",
+            "Is the course delivered in a physical location?",
+            "Can I study offline?"
+          ],
+          "responses": [
+            "No, the course is not offered offline.",
+            "Internet access is required to participate in the course.",
+            "The course is delivered entirely online; there are no in-person classes.",
+            "You cannot take the course without internet access."
+          ]
+        }
+      ]
+    }
+  
+    
+  
+
