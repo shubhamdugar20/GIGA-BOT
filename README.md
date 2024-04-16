@@ -6,6 +6,10 @@ Overview:
 
 The goal of this project is to create an intelligent chatbot capable of understanding and responding to user queries in natural language. The chatbot leverages PyTorch, a deep learning framework, to build a neural network model for NLP tasks. Additionally, it utilizes NLTK (Natural Language Toolkit) for text preprocessing and optimization techniques such as stemming and lemmatization.
 
+It also offers effective feeback for improvement of the algorithm from the user with all the chat transcripts can be downloaded by the admin for future enhancement of the algorithm.
+
+If the bot is unable to answer some questions it redirects to the doubt support for further communication.
+
 Features :  
 
   NLP Optimization: The chatbot preprocesses user queries using stemming and lemmatization techniques provided by NLTK. This optimization helps in reducing the dimensionality of the input space and improving the accuracy of the neural network model.
