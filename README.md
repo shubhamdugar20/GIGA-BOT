@@ -3,7 +3,10 @@ AI Chatbot Project
 This project implements an AI chatbot using PyTorch for natural language processing (NLP), Flask for backend server development, and HTML with JavaScript for the frontend interface.
 
 Overview:
+
+
 https://github.com/shubhamdugar20/GIGA-BOT/assets/50994665/ac65b1db-f893-4a84-b118-c5bdd84efbb2
+
 
 The goal of this project is to create an intelligent chatbot capable of understanding and responding to user queries in natural language. The chatbot leverages PyTorch, a deep learning framework, to build a neural network model for NLP tasks. Additionally, it utilizes NLTK (Natural Language Toolkit) for text preprocessing and optimization techniques such as stemming and lemmatization.
 
